@@ -1,13 +1,36 @@
-webpackJsonp([1],[
+webpackJsonp([2],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(5);
+	module.exports = __webpack_require__(8);
 
 
 /***/ },
-/* 1 */,
-/* 2 */,
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var _header = __webpack_require__(2);
+	
+	var _header2 = _interopRequireDefault(_header);
+	
+	var _riot = __webpack_require__(3);
+	
+	var _riot2 = _interopRequireDefault(_riot);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(riot) {
+	riot.tag2('header', '<div id="header"><span>Logo</span></div>', '', '', function(opts) {
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+
+/***/ },
 /* 3 */,
 /* 4 */,
 /* 5 */
@@ -85,6 +108,28 @@ webpackJsonp([1],[
 	
 	exports.default = api;
 
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var _riot = __webpack_require__(3);
+	
+	var _riot2 = _interopRequireDefault(_riot);
+	
+	var _login = __webpack_require__(5);
+	
+	var _login2 = _interopRequireDefault(_login);
+	
+	var _header = __webpack_require__(1);
+	
+	var _header2 = _interopRequireDefault(_header);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	_riot2.default.mount('*');
+
 /***/ }
 ]);
-//# sourceMappingURL=login.entry.bundle.js.map
+//# sourceMappingURL=loginPage.entry.bundle.js.map

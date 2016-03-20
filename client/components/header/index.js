@@ -1,4 +1,4 @@
 'use strict';
 
-import template from './login.jade';
+import template from './header.jade';
 import riot from 'riot';

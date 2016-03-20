@@ -7,7 +7,10 @@ module.exports = {
     devtool: 'source-map',
     entry: {
         // Components
-        login: './client/components/login'
+        login: ['./client/components/login'],
+        header: ['./client/components/header'],
+        // page
+        loginPage: ['./client/containers/login.js']
     },
     output: {
         path: __dirname + '/public/bundle',

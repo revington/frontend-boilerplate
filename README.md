@@ -8,7 +8,7 @@ Justa an (always WIP) personals frontend boilerplate with
 * es6 modules
 
 ## Structure
-UI components are below `client/components/`. Right now each `component` is a standalone SPA.
-I'm on my way to learn modern UI development with riotjs and jade, and at some point a component will be a component and not an SPA
+UI components are below `client/components/`. Examples of components: header, footer, login form, etc.  
+UI containers are below `client/containers`. They *contain* components. For instance the login ~~page~~ container is made from a header, a login form and a footer.
 
-Any suggestion? Please open an issue :)
+I'm on my way to learn modern UI development with riotjs and jade. Any suggestions will be more than welcome :)
