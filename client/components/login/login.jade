@@ -1,0 +1,9 @@
+login
+    form(onsubmit="{doLogin}")
+        label email
+            input(type="email", name="email", placeholder="email")
+        label password
+            input(type="password", name="password")
+        input(type="submit")
+    script
+        include login.js

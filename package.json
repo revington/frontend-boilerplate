@@ -1,0 +1,44 @@
+{
+    "name": "frontend-boilerplate-riot-jade-express-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --timeout 5000 --require test/support/env --bail --check-leaks test",
+        "test-cov": "istanbul cover node_modules/mocha/bin/_mocha --require test/support/env --bail --check-leaks test",
+        "webpack": "webpack -w --optimize-dedupe",
+        "webpack-production": "webpack --optimize-minimize --optimize-dedupe"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/revington/frontend-boilerplate-riot-jade-express-webpack.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/revington/frontend-boilerplate-riot-jade-express-webpack/issues"
+    },
+    "homepage": "https://github.com/revington/frontend-boilerplate-riot-jade-express-webpack#readme",
+    "dependencies": {
+        "express": "^4.13.4",
+        "jade": "^1.11.0",
+        "serve-favicon": "^2.3.0",
+        "compression": "^1.6.1",
+        "body-parser": "^1.15.0"
+    },
+    "devDependencies": {
+        "babel": "^6.5.2",
+        "babel-core": "^6.7.2",
+        "babel-loader": "^6.2.4",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
+        "babel-preset-es2015-webpack": "^6.4.0",
+        "css-loader": "^0.23.1",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "file-loader": "^0.8.5",
+        "riot": "^2.3.17",
+        "riotjs-loader": "github:cncolder/riotjs-loader#full-filename",
+        "style-loader": "^0.13.0",
+        "url-loader": "^0.5.7",
+        "webpack": "^1.12.14"
+    }
+}
