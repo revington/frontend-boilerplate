@@ -14,10 +14,10 @@ UI containers are below `client/containers`. They *contain* components. For inst
 I'm on my way to learn modern UI development with riotjs and jade. Any suggestions will be more than welcome :)
 
 ## Install and run
-`$ git clone git@github.com:revington/frontend-boilerplate.git`
-`$ cd frontend-boilerplate`
-`$ npm install`
-`$ node server.js`
+`$ git clone git@github.com:revington/frontend-boilerplate.git`  
+`$ cd frontend-boilerplate`  
+`$ npm install`  
+`$ node server.js`  
 In a different terminal run `$ npm run webpack` to bundle.  
 Then visit [http://localhost:3000/login](http://localhost:3000/login)
 
