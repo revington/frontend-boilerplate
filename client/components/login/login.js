@@ -1,7 +1,6 @@
-'use strict';
+import api from '../../api';
 
 var tag = this;
-import api from '../../api';
 
 tag.doLogin = function (e) {
     var email = tag.email.value;
